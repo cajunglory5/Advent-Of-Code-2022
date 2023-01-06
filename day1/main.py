@@ -16,8 +16,9 @@ def main():
             elves.append(a) 
             print(a)
             a = 0
+    elves.sort(reverse=True)
     print(elves)
-    print(max(elves))
+    print(elves[0]+elves[1]+elves[2])
 
 if __name__ == "__main__":
     main()
